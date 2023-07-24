@@ -1,0 +1,92 @@
+#card{
+    height: 250px;
+    width: 250px;
+    box-shadow: 3px 3px 10px rgb(115, 97, 185);
+    border-radius: 4px;
+}
+#image-container{
+   
+    height: 155px;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(194, 182, 240);
+}
+#img-item{
+    height: 100%;
+}
+#price-container{
+    display: flex;
+    position: relative;
+}
+#btn{
+    height: 35px;
+    width: 120px;
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    background-color: white;
+    color: rgb(115, 97, 185);
+    font-weight: bold;
+    border-radius: 5px;
+    border-color: rgb(115, 97, 185);
+}
+#btn:hover{
+    box-shadow:3px 3px 10px rgb(23, 23, 24);
+    background-color: rgb(115, 97, 185);
+    color:white ;
+    
+}
+
+#section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+}
+#brand{
+    margin-top: -5px;
+} 
+#search-icon{
+    height: 60px;
+    width: 60px;
+    background-color: rgb(115, 97, 185);
+    border-radius:0px 15px 15px 0px ;
+    box-shadow: 3px 3px 10px black;
+}
+#search-container{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  
+}
+#search-input-feild{
+    width: 60%;
+    margin-left: 20%;
+    border-radius: 15px 0px  0px 15px ;
+    box-shadow: 3px 3px 10px black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.main-container{
+    padding: 20px;
+}
+.branding-of-product{
+    margin-top: 4px;
+}
+
+.incremet-dec-btn{
+    height:20px;
+}
+.quantity-naming{
+    font-weight:bold
+}
+.container-of-card{
+    display: flex;
+    gap:40px;
+    flex-wrap: wrap;
+    margin-left: 130px;
+}
+.naming-of-the-contity-number{
+    font-size: large;
+    font-weight: bold;
+    margin: 20px;
+}

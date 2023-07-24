@@ -1,0 +1,41 @@
+#Order-container{
+    height: auto;
+    width: 800px;
+    border: 2px solid;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    box-shadow: 3px 3px 10px black;
+    border-radius: 15px;
+}
+#name-cart{
+    margin-left: 30%;
+}
+#order-div{
+    display: flex;
+    margin: 20px;
+    justify-content: space-between;
+}
+#order-img{
+   height: 100%;
+  
+}
+#price-order{
+    margin-top: -15px;
+}
+#order-img-cont{
+    background-color: grey;
+    height: 100px;
+    width: 120px;
+    border-radius: 5px;
+    text-align: center;
+}
+#delete-Order{
+    height: 40px;
+    width: 120px;
+    border-radius: 6px;
+    margin-top: 30px;
+}
+#total{
+    text-align: center;
+}

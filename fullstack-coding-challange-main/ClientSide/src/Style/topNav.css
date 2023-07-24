@@ -1,0 +1,90 @@
+#top-nav{
+    height: 90px;
+    width: 100%;
+    background-color: rgba(50, 137, 219, 0.644);
+}
+#nav-container{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+
+}
+.log-out-btn{
+    color: aliceblue;
+    margin-top: 40px;
+    margin-right:30px ;
+}
+#logo{
+    height: 40px;
+    border-radius: 13px;
+    position: absolute;
+    right: 90px;
+    top: 30px;
+    
+}
+#pro{
+    position: absolute;
+    right: 170px;
+    top: 10px;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 20px;
+}
+#title{
+    position: absolute;
+    left: 90px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: aliceblue;
+}
+#adddd{
+    height: 20px;
+    width: 20px;
+    position:absolute;
+    background-color: red;
+    right: 80px;
+    top:20px;
+    border-radius: 50%;
+    font-size: large;
+    font-weight: bold;
+    color: aliceblue;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media only screen and (max-width:550px) {
+ #top-nav{
+    height: 90px;
+    width: 100%;
+   
+}
+#logo{
+    
+    height: 40px;
+    border-radius: 13px;
+    position: absolute;
+    right: 10px;
+    top: 30px;
+}
+#pro{
+    position: absolute;
+    right: 80px;
+    top: 10px;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 20px;
+}
+#title{
+    position: absolute;
+    left: 10px;
+    font-size: 25px;
+    margin-top: 30px;
+    font-weight: bolder;
+    color: aliceblue;
+}
+.navlogo{
+    height: 20px;
+}
+ }   
